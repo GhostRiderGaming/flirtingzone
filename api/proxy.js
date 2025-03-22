@@ -12,7 +12,7 @@ export default async function handler(req, res) {
         const response = await fetch("https://astra.datastax.com/api/v1/run/b8b371be-e5bc-46f9-a46a-d3f6193c8b80?stream=false", {
             method: "POST",
             headers: {
-                "Authorization": "Bearer AstraCS:evOfBIHZEhFFvPHtNuGejzti:7aa08934cb27858572c0e9df79611c3dcb33667a23446ae7e8e67773ea72a077",  // Replace with your Astra token
+                "Authorization": "Bearer AstraCS:NCsKGmZHUhXqgEiDCdCLQrSi:929f6dc15dc631b7ee648d34d3034fe45f18d25cf27cb054fa72c6a28bc8b43b",  // Replace with your Astra token
                 "Content-Type": "application/json",
                 "x-api-key": "AIzaSyCgCoSqcMV-zKw5ILsXEB90-KlSbCPU3lA"
             },
