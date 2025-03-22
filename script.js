@@ -4,7 +4,7 @@ function startFlirting() {
   let inputValue = "Hello, how are you?"; // Insert input value here
 
 fetch(
-  "https://astra.datastax.com/api/v1/run/b8b371be-e5bc-46f9-a46a-d3f6193c8b80?stream=false",
+  "https://cors-anywhere.herokuapp.com/https://astra.datastax.com/api/v1/run/b8b371be-e5bc-46f9-a46a-d3f6193c8b80?stream=false",
   {
     method: "POST",
     headers: {
