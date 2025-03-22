@@ -4,11 +4,11 @@ function startFlirting() {
   let inputValue = "Hello, how are you?"; // Insert input value here
 
 fetch(
-  "https://cors-anywhere.herokuapp.com/https://astra.datastax.com/api/v1/run/b8b371be-e5bc-46f9-a46a-d3f6193c8b80?stream=false",
+  "https://astra.datastax.com/api/v1/run/b8b371be-e5bc-46f9-a46a-d3f6193c8b80?stream=false",
   {
     method: "POST",
     headers: {
-      "Authorization": "AstraCS:TpumIEGIXSbLatgrRywLYYUO:fa9b6dd6d54a1b02fa14e387588d3550244034f1506f127ca1dc8a0d6794b6a7",  // Replace with your token
+      "Authorization": "AstraCS:WekjSYmdIrKxyFBXOpOtZdoH:ae8fcced8a73507e9a5dc746c4b98152023141e8a13d7932eabc7c2ac81245f9",  // Replace with your token
       "Content-Type": "application/json",
       "x-api-key": "YOUR_API_KEY_HERE",  // Replace with your API key
     },
