@@ -8,7 +8,8 @@ export default async function handler(req, res) {
             method: "POST",
             headers: {
                 "Authorization": "Bearer AstraCS:evOfBIHZEhFFvPHtNuGejzti:7aa08934cb27858572c0e9df79611c3dcb33667a23446ae7e8e67773ea72a077",  // Replace with your Astra token
-                "Content-Type": "application/json"
+                "Content-Type": "application/json",
+                "x-api-key": AIzaSyCgCoSqcMV-zKw5ILsXEB90-KlSbCPU3lA,
             },
             body: JSON.stringify(req.body)
         });
